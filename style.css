@@ -14,7 +14,6 @@ h1 {
 }
 
 .main_sec {
-  width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -22,8 +21,8 @@ h1 {
 }
 
 .blob {
-  background: linear-gradient(to right, aquamarine, mediumpurple);
-  animation: rotate 5s infinite;
+  background: linear-gradient(#bdc3c7, #2c3e50);
+  animation: rotate 4s infinite;
   translate: -50% -50%;
   border-radius: 50%;
   position: absolute;
