@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: monospace;
+}
+
+.main_sec {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blob {
+  background: linear-gradient(to right, aquamarine, mediumpurple);
+  animation: rotate 5s infinite;
+  translate: -50% -50%;
+  border-radius: 50%;
+  position: absolute;
+  aspect-ratio: 1;
+  height: 25rem;
+  z-index: -1;
+  left: 50%;
+  top: 50%;
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 360deg;
+  }
+}
